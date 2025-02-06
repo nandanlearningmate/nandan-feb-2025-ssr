@@ -1,0 +1,8 @@
+Welcome to SSR Angular App!
+<h2>Users List</h2>
+<ul>
+  <li *ngFor="let user of users">
+    <img [src]="user.avatar" alt="{{ user.first_name }}" width="50">
+    {{ user.first_name }} {{ user.last_name }} - {{ user.email }}
+  </li>
+</ul>
