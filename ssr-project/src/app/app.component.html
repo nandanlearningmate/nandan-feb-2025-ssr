@@ -1,8 +1,18 @@
-Welcome to SSR Angular App!
-<h2>Users List</h2>
+
+<!-- <h2>Users List</h2>
 <ul>
   <li *ngFor="let user of users">
     <img [src]="user.avatar" alt="{{ user.first_name }}" width="50">
-    {{ user.first_name }} {{ user.last_name }} - {{ user.email }}
+    <span>{{ user.first_name }} {{ user.last_name }} - {{ user.email }}</span>
   </li>
-</ul>
+</ul> -->
+
+<header class="header">
+  Welcome to SSR Angular App!
+</header>
+
+<nav class="navbar">
+  <a routerLink="/my-articles">My Articles</a>
+  <a routerLink="/compose-article">Compose Article</a>
+</nav>
+<router-outlet></router-outlet>

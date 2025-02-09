@@ -1,0 +1,11 @@
+
+<div class="my-articles">
+    <h2>My Articles</h2>
+    <ul class="article-list">
+        <li *ngFor="let article of articles">
+          <h3>{{ article.title }}</h3>
+          <p>{{ article.content }}</p>
+          <button (click)="goToArticle(article.id)">Read More</button>
+        </li>
+      </ul>
+</div>

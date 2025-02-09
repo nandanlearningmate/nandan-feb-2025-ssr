@@ -1,0 +1,7 @@
+<div *ngIf="article" class="article-details">
+    <h1 class="article-details-title">{{ article.title }}</h1>
+    <img *ngIf="article.image" [src]="article.image" alt="{{ article.title }}" class="article-details-image">
+    <p class="article-details-content">{{ article.content }}</p>
+
+    <a class="back-button" routerLink="/my-articles">← Back to Articles</a>
+</div>

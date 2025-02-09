@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Sample Article - 1",
+      "description": "This is the first sample article.",
+      "content": "Detailed content of the first sample article.",
+      "image": "https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc"
+    },
+    {
+      "id": 2,
+      "title": "Sample Article - 2",
+      "description": "This is the second sample article.",
+      "content": "Detailed content of the second sample article.",
+      "image": "https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g"
+    },
+    {
+      "id": 3,
+      "title": "Sample Article - 3",
+      "description": "This is the third sample article.",
+      "content": "Detailed content of the third sample article.",
+      "image": "https://fastly.picsum.photos/id/139/3465/3008.jpg?hmac=52Trc4YpfCnGBPi5fsPPwSkRarjMuUV4O_uLBufPgII"
+    }
+  ]
+}
